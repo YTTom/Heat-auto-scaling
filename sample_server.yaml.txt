@@ -1,0 +1,9 @@
+type: os.nova.server
+version: 1.0
+properties:
+  name: cirros_server
+  flavor: m1.tiny
+  image: cirros
+  key_name: key
+  networks:
+    - network: tanet
