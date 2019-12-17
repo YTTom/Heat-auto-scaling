@@ -15,11 +15,11 @@ parameters:
   key_name:
     type: string
     description: keypair to be used
-    default: key
+    default: admin
   network:
     type: string
     description: project network to attach instance to
-    default: tanant
+    default: net.tenant.234
   external_network:
     type: string
     description: network used for floating IPs
